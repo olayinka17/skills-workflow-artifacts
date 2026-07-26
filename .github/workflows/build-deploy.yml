@@ -31,7 +31,7 @@ jobs:
     steps: 
       - uses: actions/download-artifact@v8
         with: 
-          name: octomath
+          name: octomatch
           path: website
       - name: Deploy to dev
         run: |
