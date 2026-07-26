@@ -39,7 +39,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
-      - run: npm run test:ese
+      - run: npm run test:e2e
       - uses: actions/upload-artifact@v7
         with: 
           path: playwright-report/index.html
